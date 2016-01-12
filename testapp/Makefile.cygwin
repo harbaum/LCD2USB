@@ -1,0 +1,15 @@
+#
+# Makefile.xmingw
+#
+
+APP = lcd2usb
+
+all: $(APP).exe
+
+clean:
+	rm -f $(APP).exe
+
+$(APP).exe: $(APP).c
+	$(CC) -Wall -DWIN -o $@ $(APP).c -lusb
+
+ 

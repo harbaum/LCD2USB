@@ -85,30 +85,30 @@ I sometimes have spare PCBs. Send me an email if you want to buy one of them.
 
 You can get all parts directly via the [lcd2usb part list at Reichelt](http://www.reichelt.de/?ACTION=20;AWKID=50388;PROVID=2084). This list is for the V1.1 pcb and includes the following parts:
 
-Part | Qty | Name | [Reichelt Part No.](http://www.reichelt.de) | [Conrad Part No.](http://www.conrad.de) 
----- | ---- | ---- | ---- 
-Q1 | 1 | 12Mhz crystal, HC49U package | 12,0000-HC49U-S | 445167 
-R1 | 1 | 2.2k ohm resistor | 1/4W 2,2k | 403296 
-R2, R3 | 2 | 68 ohm resistor | 1/4W 68 | 403113 
-R4 | 1 | 47 ohm resistor | 1/4W 47 | 403091 
-R5 | 1 | 220 ohm resistor | 1/4W 220 | 403172 
-R6 | 1 | 4.7k ohm resistor | 1/4W 4,7k | 403334 
-C1, C2 | 2 | 22pF ceramic capacitor, 2.54mm | KERKO 22P | 457167 
-C3, C5 | 2 | 100nF capacitor, 5.08mm | X7R-5 100N | 453358 
-C6, C7 | 2 | 10μF electrolytic capacitor | RAD 10/35 | 472484 
-T1 | 1 | BC547C transistor | BC 547C | 154989 
-L1 | 1 | 10μH inductor | SMCC 10μ | 535729 
-S1, S2 | 2 | push button | TASTER 9305 | 700460 
-SV1 | 1 | 10 pin ISP connector | WSL 10G | 744026 
-JP1 | 1 | display connector | BL 1X20G 2,54 | 734993 
-JP2, JP6 | 1 | display connector | BL 2X10G 2,54 | 741159 
--- | 1 | display side connector for JP2/JP6 | SL 2X10G 2,54 | 744026 
-JP3 | 1 | 4 pin debug connector, display side connector for JP1 | SL 1X36G 2,54 | 744018 
-LED1 | 1 | LED 3mm green | LED 3MM GN | 184713 
--- | 1 | USB-B print connector | USB BW | 743950 
-IC1 | 1 | Atmega8-16 DIP | ATMEGA 8-16 DIP | 154054 
--- | 1 | socket for IC1 | GS 28P-S | 189515 
-D1, D2 | 2 | 3.6V zener diode | ZF 3,6 | 180050 
+Part | Qty | Name | [Reichelt Part No.](http://www.reichelt.de) | [Conrad Part No.](http://www.conrad.de)
+---- | ---- | ---- | ---- | ----
+Q1 | 1 | 12Mhz crystal, HC49U package | 12,0000-HC49U-S | 445167
+R1 | 1 | 2.2k ohm resistor | 1/4W 2,2k | 403296
+R2, R3 | 2 | 68 ohm resistor | 1/4W 68 | 403113
+R4 | 1 | 47 ohm resistor | 1/4W 47 | 403091
+R5 | 1 | 220 ohm resistor | 1/4W 220 | 403172
+R6 | 1 | 4.7k ohm resistor | 1/4W 4,7k | 403334
+C1, C2 | 2 | 22pF ceramic capacitor, 2.54mm | KERKO 22P | 457167
+C3, C5 | 2 | 100nF capacitor, 5.08mm | X7R-5 100N | 453358
+C6, C7 | 2 | 10μF electrolytic capacitor | RAD 10/35 | 472484
+T1 | 1 | BC547C transistor | BC 547C | 154989
+L1 | 1 | 10μH inductor | SMCC 10μ | 535729
+S1, S2 | 2 | push button | TASTER 9305 | 700460
+SV1 | 1 | 10 pin ISP connector | WSL 10G | 744026
+JP1 | 1 | display connector | BL 1X20G 2,54 | 734993
+JP2, JP6 | 1 | display connector | BL 2X10G 2,54 | 741159
+-- | 1 | display side connector for JP2/JP6 | SL 2X10G 2,54 | 744026
+JP3 | 1 | 4 pin debug connector, display side connector for JP1 | SL 1X36G 2,54 | 744018
+LED1 | 1 | LED 3mm green | LED 3MM GN | 184713
+-- | 1 | USB-B print connector | USB BW | 743950
+IC1 | 1 | Atmega8-16 DIP | ATMEGA 8-16 DIP | 154054
+-- | 1 | socket for IC1 | GS 28P-S | 189515
+D1, D2 | 2 | 3.6V zener diode | ZF 3,6 | 180050
 
 Additionally required: Display, USB cable
 

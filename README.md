@@ -4,7 +4,7 @@
 
 LCD2USB is a open source/open hardware project. The goal of LCD2USB is to connect HD44780 based text LCD displays to various PCs via USB. LCD2USB was meant to be cheap and to be made of easily available parts. It is therefore based on the [Atmel AVR Mega8 CPU](http://www.atmel.com/dyn/products/product_card.asp?part_id=2004) and does not require any difficult to obtain parts like separate USB controllers and the like. The total cost (without display and pcb) are about 5 to 10 Euros. LCD2USB currently comes with a simple demo application that works under Linux, MacOS X and Windows.
 
-LCD2USB is currently supported by [lcd4linux](http://ssl.bulix.org/projects/lcd4linux/) (LCD2USB support is built-in), [LCD Smartie](http://lcdsmartie.sourceforge.net/) (requires a [seperate driver](LCD2USB.dll)), and [LCDProc](http://lcdproc.org/) (LCD2USB support is built-in).
+LCD2USB is currently supported by [lcd4linux](http://ssl.bulix.org/projects/lcd4linux/) (LCD2USB support is built-in), [LCD Smartie](http://lcdsmartie.sourceforge.net/) (requires a [seperate driver](contrib/LCD2USB.dll)), and [LCDProc](http://lcdproc.org/) (LCD2USB support is built-in).
 
 Every now and then i have spare PCBs available. Send me an email if you are interested.
 
@@ -191,9 +191,9 @@ The LCD2USB interface was originally developed for use with [lcd4linux](http://s
 
 Harald Körfgen wrote a LCD Smartie plugin for LCD2USB finally allowing the LCD2USB to be used under Windows as well. Here's what he writes about his plugin:
 
-[LCD2USB-smartie.zip](LCD2USB-smartie.zip) contains all the necessary source files requried to compile the driver with Microsoft ® Windows Server® 2003 R2 Platform SDK, Microsoft Visual C++ 2005 Express Edition and LibUsb-Win32\. [LCD2USB.dll](LCD2USB.dll) is the resulting file.
+[LCD2USB-smartie.zip](contrib/LCD2USB-smartie.zip) contains all the necessary source files requried to compile the driver with Microsoft ® Windows Server® 2003 R2 Platform SDK, Microsoft Visual C++ 2005 Express Edition and LibUsb-Win32\. [LCD2USB.dll](contrib/LCD2USB.dll) is the resulting file.
 
-In order to use the driver libusb-win32 has also to be installed and the [LCD2USB.dll](LCD2USB.dll) has to be placed in the "displays" directory of LCD Smartie and it will be auto-detected and automatically be used. He has only tested his driver with a 20x4 display yet, so feedback is welcome.
+In order to use the driver libusb-win32 has also to be installed and the [LCD2USB.dll](contrib/LCD2USB.dll) has to be placed in the "displays" directory of LCD Smartie and it will be auto-detected and automatically be used. He has only tested his driver with a 20x4 display yet, so feedback is welcome.
 
 ## Troubleshooting
 
